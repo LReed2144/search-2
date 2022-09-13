@@ -149,8 +149,20 @@ hr {
 
 .flex-container1 {
     display: flex;
-    
     justify-content: space-between;
+}
+
+.flex-container1 div p a {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #5d5f60;
+    text-decoration: none; 
+}
+
+.flex-container1 > div {
+    margin: 10px;
+    padding: 20px;
+    margin-top: auto;
 }
 .advanced-search-container {
     margin-left: 60px; 
