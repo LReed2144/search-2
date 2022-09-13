@@ -9,20 +9,42 @@
     </head>
     <body>
        <div class="flex-container">
-            <div><p><a href="index.html">Google Search</a><p></div>
+        <div id="google-logo-advanced"><img src="googlelogo.jpg" alt="Google Logo"/></div>
+            <div><p><a href="index.html">Google Search</a></p></div>
+        </div>  
+        <p class="advanced-search">Advanced Search</p>  
+        <hr>
+        <div class="text">
+            <p>Find pages with...</p>
+            <p>To do this in the search box</p>
         </div>
-        <div class="logo-display"><img src="googlelogo.jpg" alt="Google Logo"/></div>
-        <div class="search-container">
-            <form action="https://google.com/search">
-                <div class="input-wrapper">
-                    <!-- <div class="fa fa-search"></div> -->
-                        <input type="text" name="q" />
-                    <!-- <div class=" fa fa-times"></div> -->
+        <div class="advanced-search-container">
+            <form action="https://google.com/search" name="f">
+                <div class="field">
+                    <div class="field-item"><label for="field1">all these words:</label></div>
+                    <div class="field-item1"><input type="text" class="textinput" id="field1" value=""  name="as_q"></div>
+                    <div class="field-item"><p>type the important words: tricolor rat terrier</p></div>
                 </div>
-                <!-- <div class="button-container">
-                <div id="search-button"><input type="submit" value="Google Search">
-                <input type="submit"  value="I'm Feeling Lucky"></div>
-            </div> -->
+                <br>
+                <div class="field">
+                    <div class="field-item"><label for="field2">this exact word or phrase: </label></div>
+                    <div class="field-item"><input type="text" class="textinput" id="field2" value=""  name="as_epq"></div>
+                    <div class="field-item"><p>Put exact words in quotes "rat terrier</p></div>
+                </div>
+                <br>
+                <div class="field">
+                    <div class="field-item"><label for="field3">any of this words: </label></div>
+                    <div class="field-item"><input type="text" class="textinput" id="field3" value=""  name="as_oq"></div>
+                    <div class="field-item"><p>Type OR between all the words you want: minature OR standard</p></div>
+                </div>
+                <br>
+                <div class="field">
+                    <div class="field-item"><label for="field4">none of these words: </label></div>
+                    <div class="field-item"><input type="text" class="textinput" id="field4" value=""  name="as_eq"></div>
+                    <div class="field-item"><p>Put a minus sign just before words you don't want: </p><p>-rodent, -"Jack Russel"</p></div>
+                
+                </div>
+                <div id="button"><input type="submit" value="Advanced Search" id="advanced-button"></div>
             </form>
         </div>
     </body>

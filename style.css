@@ -11,7 +11,7 @@ body {
 }
 .flex-container {
     display: flex;
-    justify-content: right;
+    justify-content: space-between;
 }
 
 .flex-container div p a {
@@ -112,4 +112,88 @@ box-shadow: 0px 0px 1px 1px #d3d1d1;
     background-color: #fff;
     border: none;
     font-size: 20px;
+}
+
+ #google-logo-advanced img{
+width: 40pxpx;
+height: 30px;
+padding: 0px;
+border: 0px;
+margin: 2px;
+}
+
+.advanced-search {
+    color: #D93025;
+    font-family: arial, sans-serif;
+    font-size: 20px;
+    margin-left: 60px;
+    margin-bottom: 25px:
+}
+
+hr {
+    border-top: #928d8d;
+}
+
+.text {
+    font-family: arial, sans-serif;
+    font-size: 17px;
+    margin-left: 60px;
+    margin-top: 45px;
+    display: flex;
+    justify-content: space-between;
+    margin-right: 10px;
+
+}
+
+.advanced-search-container {
+    margin-left: 60px; 
+    display: grid;
+    padding: 20px;
+    grid-column-gap: 20px;
+    grid-row-gap: 10px;
+    grid-template-columns: 200px 200px auto;
+}
+
+.field {
+    display: grid;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    grid-template-columns: 150px 350px auto;
+}
+
+.field-item {
+    font-size: 12px;
+     /* padding-right: 20px;
+     padding-left: 0px; */
+     padding: 0px;
+     margin: 0px;
+  
+}
+.field-item p {
+    width: 300px;
+}
+
+#field1 {
+    width: 300px;
+}
+
+#field2 {
+    width: 300px;
+}
+
+#field3 {
+    width: 300px;
+}
+
+#field4 {
+    width: 300px;
+}
+
+#advanced-button {
+    text-align: right;
+    width: 130px;
+    height: 30px;
+    background-color: #4D90FE;
+    color:white;
+    border: none;
 }
