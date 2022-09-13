@@ -106,3 +106,10 @@ body {
 #search-button input:hover {
 box-shadow: 0px 0px 1px 1px #d3d1d1;
 }
+
+.search-button {
+    color: #4285F4;
+    background-color: #fff;
+    border: none;
+    font-size: 20px;
+}
