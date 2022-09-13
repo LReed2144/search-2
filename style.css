@@ -1,10 +1,12 @@
+
+
 body {
     height: 100%;
     margin: 0;
     padding: 0;
     font-size: 14px;
     font-family: Roboto, arial, sans-serif;
-    color: #202124;
+    color: #5d5f60;
     background: #fff;
 }
 .flex-container {
@@ -14,7 +16,7 @@ body {
 
 .flex-container > div {
     margin: 10px;
-    padding: 20 px;
+    padding: 20px;
     margin-top: auto;
 }
 
@@ -75,3 +77,20 @@ body {
         height: 30px;
     }
 
+    .button-container {
+        display: flex;
+        justify-content: center;
+    }
+
+#search-button input {
+    margin: 20px;
+    padding: 5px;
+    margin-top: auto;
+    background-color:#f8f9fA;
+    border: none;
+    padding: 10px 16px;
+    color: #5d5f60;
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+
+}
