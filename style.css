@@ -14,7 +14,13 @@ body {
     justify-content: right;
 }
 
-.flex-container p:hover {
+.flex-container div p a {
+    font-size: 14px;
+    font-family: Roboto, arial, sans-serif;
+    color: #5d5f60;
+    text-decoration: none; 
+}
+.flex-container div p a:hover {
     text-decoration: underline;
 }
 .flex-container > div {
